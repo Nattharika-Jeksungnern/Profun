@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1661147941 source:c:\users\acer\desktop\weeklyquiz\week3\pattern_ii\main.c
+	<stdio.h>
+	<stdlib.h>
+

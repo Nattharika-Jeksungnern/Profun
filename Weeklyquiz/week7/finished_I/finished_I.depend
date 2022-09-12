@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1662996344 source:c:\users\acer\desktop\weeklyquiz\week7\finished_i\main.cpp
+	<iostream>
+	<ctype.h>
+

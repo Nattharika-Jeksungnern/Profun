@@ -2,17 +2,7 @@
 #define N 9
 using namespace std;
 
-int grid[N][N] = {
-    {6,5,0,8,7,3,0,9,0},
-    {0,0,3,2,5,0,0,0,8},
-    {9,8,0,1,0,4,3,5,7},
-    {1,0,5,0,0,0,0,0,0},
-    {4,0,0,0,0,0,0,0,2},
-    {0,0,0,0,0,0,5,0,3},
-    {5,7,8,3,0,1,0,2,6},
-    {2,0,0,0,4,8,9,0,0},
-    {0,9,0,6,2,5,0,8,1}
-};
+int grid[N][N];
 
 bool havecol(int col, int num)
 {
@@ -102,6 +92,15 @@ bool solveSudoku()
 
 
 int main() {
+    int in;
+    for (int i = 0; i < N; ++i)
+    {
+        for (int j = 0; j < N; ++j)
+        {
+            cin >> in;
+            grid[i][j] = in;
+        }
+    }
     if (solveSudoku())
         sudokuGrid();
     else
